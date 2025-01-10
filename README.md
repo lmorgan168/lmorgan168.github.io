@@ -27,7 +27,7 @@ I have a passion for applying data-driven solutions to real-world problems. Chec
 ## Projects
 
 ### [Bird Call Classification - Sound Event Detection](https://github.com/lmorgan168/Bird-Call-Detection-BirdClef)
-![Bird](assets/images/Screen Shot 2022-02-08 at 2.04.09 PM.png)
+![Bird](assets/images/)
 The purpose of this project is to address the challenge of limited data and manual annotation in bioacoustics. We implemented:
 - **ResNet38 Model**: Pretrained audio neural network for bird call detection.
 - **Mel-Spectrograms**: Converted audio data into spectrograms for CNN input.
