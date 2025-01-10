@@ -34,8 +34,6 @@ The purpose of this project is to address the challenge of limited data and manu
 - **Focal Loss**: Enhanced the Cross-Entropy Loss function to prioritize misclassified examples.
 - **Results**: Achieved an F1-score of 0.684, ranking in the top 15% on Kaggle.
 
-[View the full project report here](docs/Bird_Call_Detection_Final_Report.pdf).
-
 ---
 
 ### [Grocery Store Sales - Time Series Forecasting](https://github.com/lmorgan168/Grocery-Store-Sales-Time-Series)
