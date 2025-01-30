@@ -7,7 +7,7 @@ As a data scientist, I focus on ensuring data is functional for the project goal
 - Modeling using Python libraries like Scikit-learn and PyTorch for NLP, GLM, and image recognition
 - Querying data with SQL
 - Building dashboards with Tableau
-- Creating and maintaining APIs using Flask and Postman
+- Creating and maintaining APIs using Flask and SQLAlchemy
 
 I have a passion for applying data-driven solutions to real-world problems. Check out my projects below!
 
@@ -15,13 +15,13 @@ I have a passion for applying data-driven solutions to real-world problems. Chec
 ## Work Experience
 
 **Data Scientist Intern – Kaiser Permanente (Jul 2022 – Dec 2022)**
-- Developed an NLP model using MedSpaCy for automating clinical note scoring, reducing doctor workload by 800 hours.
-- Automated weekly ETL processes with Bash scripts, reducing manual work by 10 hours per week.
-- Built RESTful APIs for NVIDIA Clara scripts using Flask and SQLAlchemy, streamlining data workflows.
+- Developed an NLP API endpoint using MedSpaCy to score 10,000 clinical Parkinson's patient notes to enhance clinical analysis accuracy.
+- Automated weekly ETL processes from Clarity, the central data warehouse, using Python and Bash to simplify database updates and to enable faster demo preparation.
+- Deployed and maintained a RESTful API endpoint for NVIDIA Clara brain tumor segmentation models with Flask, SQLAlchemy, and Docker, integrating assisted medical imaging capabilities into clinical workflows
 
 **Research Intern – Children's Hospital of Orange County (Sep 2022 – Dec 2022)**
-- Predicted NICU patient readmissions using ClinicalBERT and BioBERT models, achieving a 0.7 F1-score.
-- Enhanced model accuracy by 5% by optimizing spaCy-based tokenization and entity recognition.
+- Predicted hospital readmissions for 4,192 NICU patient notes with a 0.7 F1 score using rule-based NLP and adapted BERT models, including ClinicalBERT and BioBERT.
+- Employed spaCy for clinical note preprocessing, executing tokenization, stop word elimination, and entity recognition, increasing prediction accuracy by 5%.
 
 
 ## Projects
@@ -68,16 +68,22 @@ This project benchmarks four dictionary data structures to analyze performance:
   - **Trade-Offs**: Chaining balances simplicity and speed; Cuckoo excels in performance but is complex to implement.
 
 
-## Skills
+## TECHNICAL STACK
 
-### Technical Skills
-- **Programming**: Python, R, SQL, Bash
-- **Machine Learning Libraries**: Scikit-learn, PyTorch, TensorFlow, Keras
-- **Data Visualization**: Tableau, Power BI, Matplotlib, ggplot2
-- **Cloud Platforms**: AWS, Microsoft Azure
-- **API Development**: Flask, Swagger, Postman
+- Programming Languages: Python, C++, R
+- Frameworks & Libraries: Flask, PyTorch, spaCy, HuggingFace, SQLAlchemy, Keras
+- Databases: PostgreSQL, MySQL, SQLite
+- DevOps & Cloud Platforms: Docker, GitHub Actions, AWS (RDS, ECS, Lambda)
 
-### Soft Skills
-- Effective data storytelling and visualization
-- Strong collaboration with cross-functional teams
-- Problem-solving and critical thinking
+### Data Skills:
+- Statistical Analysis: Descriptive and Inferential Statistics, Feature Engineering for NLP and audio data
+- Machine Learning: Classification, Regression, Clustering, Ensemble methods, PCA, Random Forests
+- Deep Learning: Natural Language Processing, Computer Vision, Generative Modeling, RNN/LSTM, LLM
+- Data Visualization: Matplotlib, Seaborn, Tableau
+
+- Software Development: API Integration, RESTful Services, Microservices Architecture
+- Testing: Unit Testing, Integration Testing, Performance Benchmarks
+- Performance Optimization: Reducing Latency, Streamlining Data Pipelines
+- Project Management & Collaboration: Jira, Asana, Slack, Agile Practices, Scrum Methodology, Stakeholder Communication
+- Version Control: Git, GitHub
+
