@@ -1,4 +1,3 @@
-<img src="assets/images/45630797_10210403135473294_2894318009109708800_n.jpg" alt ="" width="200">
 ## About Me
 
 Hi, I'm Lucas. To me, good data always tells a story, but finding quality data and uncovering the correct story is the real science. 
