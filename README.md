@@ -1,23 +1,28 @@
 ## About Me
 
-Hi, I'm Lucas. To me, good data always tells a story, but finding quality data and uncovering the correct story is the real science. 
+Hi, I'm Lucas. I'm a data analyst and analytics engineer focused on building data systems that drive measurable business outcomes — from subscriber acquisition at Apple TV+ to P&L optimization for multi-location restaurant groups.
 
-As a data scientist, I focus on ensuring data is functional for the project goals and finding the most effective machine learning solutions. I specialize in:
-- Data cleaning, model selection, and effective communication
-- Modeling using Python libraries like Scikit-learn and PyTorch for NLP, GLM, and image recognition
-- Querying data with SQL
-- Building dashboards with Tableau
-- Creating and maintaining APIs using Flask and SQLAlchemy
+I specialize in audience targeting and segmentation at scale, experimentation and campaign analytics, building reusable data pipelines with dbt, Snowflake, Spark, and Trino, and translating complex data into clear recommendations for cross-functional stakeholders. My background in NLP and machine learning (MedSpaCy, PyTorch, clinical scoring pipelines) keeps me close to the modeling side, and I'm actively deepening that work through a computer vision learning track.
 
-I have a passion for applying data-driven solutions to real-world problems. Check out my projects below!
-
+Check out my projects and work below!
 
 ## Work Experience
 
-**Data Scientist Intern – Kaiser Permanente (Jul 2022 – Dec 2022)**
-- Developed an NLP API endpoint using MedSpaCy to score 10,000 clinical Parkinson's patient notes to enhance clinical analysis accuracy.
-- Automated weekly ETL processes from Clarity, the central data warehouse, using Python and Bash to simplify database updates and to enable faster demo preparation.
-- Deployed and maintained a RESTful API endpoint for NVIDIA Clara brain tumor segmentation models with Flask, SQLAlchemy, and Docker, integrating assisted medical imaging capabilities into clinical workflows
+**Data Analyst III – Apple TV+ via Magnit Global (Jun 2025 – Present)**
+- Serve as the DRI for audience targeting across email and push for the Apple TV LOB, supporting campaigns that drove hundreds of thousands of incremental subscriber signups across 200+ marketing initiatives.
+- Led targeting for high-impact launches including the F1 Movie campaign (six-figure incremental viewership) and F1 Launch (near-double app follow rate), as well as Black Friday Offer campaigns that contributed double-digit percentage share of total signups.
+- Architected a reusable dbt template framework in Python to replace monolithic 600+ line SQL queries, standardizing audience segmentation logic for billion-row datasets across 4 environments (Snowflake, Vertica, Trino, Spark).
+- Automated a leadership-facing keynote report for the email marketing build team, cutting manual reporting effort from 10 hours to 1 hour weekly.
+
+**Data Analyst – Zao Management Group (Mar 2023 – Jun 2025)**
+- Designed and automated weekly executive reports for a multi-location AYCE and conventional restaurant group, surfacing actionable insights on revenue per cover, food cost ratios, and labor efficiency that directly informed P&L decisions.
+- Identified underperforming menu items and flagged premium ingredient cost overruns (including wagyu pricing), leading to menu adjustments that reduced food costs by an estimated 8–12% across affected categories.
+- Built ETL scripts in Python to ingest and standardize raw POS exports across multiple locations, transforming fragmented item-level sales data into a unified reporting pipeline.
+
+**Data Scientist Intern – Kaiser Permanente (Jul 2022 – Jan 2023)**
+- Contributed to the development of an NLP-based clinical scoring pipeline using MedSpaCy and Python, processing 10,000+ unstructured Parkinson's clinical notes against UPDRS scoring criteria.
+- Supported containerization of a RESTful Flask API for the NVIDIA Clara SDK brain tumor segmentation pipeline, integrating Dockerized services into existing MRI scan workflows.
+- Engineered weekly ETL processes from Clarity (Epic's data warehouse) using Bash and SQLite, accelerating prototyping cycles by 30%.
 
 **Research Intern – Children's Hospital of Orange County (Sep 2022 – Dec 2022)**
 - Predicted hospital readmissions for 4,192 NICU patient notes with a 0.7 F1 score using rule-based NLP and adapted BERT models, including ClinicalBERT and BioBERT.
