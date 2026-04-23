@@ -8,7 +8,7 @@ Check out my projects and work below!
 
 ## Work Experience
 
-**Data Analyst III – Apple TV+ via Magnit Global (Jun 2025 – Present)**
+**Data Analyst III – Apple via Contract w/ Magnit Global (Jun 2025 – Present)**
 - Serve as the DRI for audience targeting across email and push for the Apple TV LOB, supporting campaigns that drove hundreds of thousands of incremental subscriber signups across 200+ marketing initiatives.
 - Led targeting for high-impact launches including the F1 Movie campaign (six-figure incremental viewership) and F1 Launch (near-double app follow rate), as well as Black Friday Offer campaigns that contributed double-digit percentage share of total signups.
 - Architected a reusable dbt template framework in Python to replace monolithic 600+ line SQL queries, standardizing audience segmentation logic for billion-row datasets across 4 environments (Snowflake, Vertica, Trino, Spark).
